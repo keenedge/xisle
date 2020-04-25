@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "hugo"
+		},
+		{
+			"path": "flutter"
+		},
+		{
+			"path": "functions"
+		}
+	],
+	"settings": {}
+}

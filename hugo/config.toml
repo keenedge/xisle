@@ -4,7 +4,7 @@ defaultContentLanguage = "en"
 # language code
 languageCode = "en"
 title = "X/ISLE"
-
+publishDir = "../dist/website"
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
