@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1Cwdi0RuzZVnI7cQMrFn5q4kipjDRQ7MG">
+	<name>X/Isle</name>
+	<gx:CascadingStyle kml:id="__managed_style_0C61F404BA31A5E3C394">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2006&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1E646DFCF031A5E3C391">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2006&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0A7633C00731A5E3C391">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1E646DFCF031A5E3C391</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0C61F404BA31A5E3C394</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_26352EB00631A5D410AB">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/simple_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_16B1A2D1C931A5D410AB">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/simple_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0B5B06873D31A5D410AB">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_16B1A2D1C931A5D410AB</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_26352EB00631A5D410AB</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_09F8ECF73131A5D4108F">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_14D18BFEDC31A5D4108F</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_02CDAA304C31A5D41090</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2541918A5331A5D4108B">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2243&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1FC17D9DA531A5D4108D">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2012&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_14D18BFEDC31A5D4108F">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_02CDAA304C31A5D41090">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_146D2D3B3E31A5D4108B">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2243&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0F87745A1031A5D41088">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_0443156DA531A5D41089</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_197027D57031A5D41089</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0852CDF6D031A5D4108D">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1FC17D9DA531A5D4108D</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2FB1E0B1D531A5D4108D</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_03D1D8E28A31A5D4108B">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_146D2D3B3E31A5D4108B</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_2541918A5331A5D4108B</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_2FB1E0B1D531A5D4108D">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2012&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_197027D57031A5D41089">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_0443156DA531A5D41089">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3.2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<Folder id="082678778C31A5D4EA74">
+		<name>Honey Moon Bay</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+	</Folder>
+	<Folder id="003A3009D7318545B745">
+		<name>Youbou</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Placemark id="052DD05CE131818C62DB">
+			<name>Holmes Plateau</name>
+			<LookAt>
+				<longitude>-124.184780825221</longitude>
+				<latitude>48.87846511068608</latitude>
+				<altitude>821.2616280270815</altitude>
+				<heading>13.76857908577303</heading>
+				<tilt>45.46836298367492</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>555.4205742257182</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-124.1844825516024,48.87821276132664,823.5797158013212</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0E2066465131818D0783">
+			<name>Youbou Mill Site</name>
+			<LookAt>
+				<longitude>-124.2258314186159</longitude>
+				<latitude>48.87816975918563</latitude>
+				<altitude>170.9426048773196</altitude>
+				<heading>13.7595338327261</heading>
+				<tilt>45.46992212428153</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>798.5858547280077</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0852CDF6D031A5D4108D</styleUrl>
+			<Point>
+				<coordinates>-124.2261978086072,48.87770849434637,172.1375483854937</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="009CC6C3F331818E42B1">
+			<name>Erics Bluff</name>
+			<LookAt>
+				<longitude>-124.2200300206035</longitude>
+				<latitude>48.88295160351022</latitude>
+				<altitude>456.616381407565</altitude>
+				<heading>13.12590311016545</heading>
+				<tilt>66.49017047280491</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>356.7384840978775</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-124.2192130677073,48.88313060257573,496.8872562820039</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="05EFC1A6A331818DB4A0">
+			<name>Christopher Rock</name>
+			<LookAt>
+				<longitude>-124.2181287861364</longitude>
+				<latitude>48.88214240279098</latitude>
+				<altitude>448.447701083587</altitude>
+				<heading>28.35016790625372</heading>
+				<tilt>84.1870989084219</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>798.9361146095325</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-124.2181736800844,48.88184544591201,432.9729392491236</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="0C20ED88E9318544D557">
+		<name>Mount Good</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Placemark id="0DE902286131818BBBFC">
+			<name>Mount Good</name>
+			<LookAt>
+				<longitude>-124.0891183216074</longitude>
+				<latitude>48.84773645836722</latitude>
+				<altitude>338.8094561859007</altitude>
+				<heading>25.10757303718368</heading>
+				<tilt>76.62532050736284</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>3161.183505639201</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-124.0945704741643,48.85618807481325,722.6415140632924</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="02EDD07C7831818B2C9A">
+			<name>Lake Town</name>
+			<LookAt>
+				<longitude>-124.0902378509977</longitude>
+				<latitude>48.84257774486253</latitude>
+				<altitude>250.8288336099725</altitude>
+				<heading>25.10236077387588</heading>
+				<tilt>76.62821104884053</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>3541.539407222299</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+			<Point>
+				<coordinates>-124.0878119352679,48.83539733280395,208.8832051854339</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="0C16B7188231817EBBF7">
+		<name>Stinky Fish</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_09F8ECF73131A5D4108F</styleUrl>
+		<Placemark id="01A7C15C803181821461">
+			<name>Stinky Fish</name>
+			<LookAt>
+				<longitude>-124.1377699730265</longitude>
+				<latitude>48.73682772383454</latitude>
+				<altitude>451.4091180127169</altitude>
+				<heading>-74.04217527918345</heading>
+				<tilt>61.47975217719662</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>3212.643338841735</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-124.1457646750253,48.73416715658635,688.9756870868242</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0BAA93B5473181828104">
+			<name>Gravel Pit</name>
+			<LookAt>
+				<longitude>-124.1386079241564</longitude>
+				<latitude>48.73659523029291</latitude>
+				<altitude>475.4397637096019</altitude>
+				<heading>-74.04280519047499</heading>
+				<tilt>61.47935451793237</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>3162.314572487958</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0852CDF6D031A5D4108D</styleUrl>
+			<Point>
+				<coordinates>-124.1257999147939,48.7394503422602,273.3128842378538</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="0B98BDE89031817AA859">
+		<name>Mount Prevost</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>-123.77261164395</longitude>
+			<latitude>48.82083787010234</latitude>
+			<altitude>414.2015048980121</altitude>
+			<heading>-35.94796455033591</heading>
+			<tilt>2.97006134238105</tilt>
+			<gx:fovy>30.00000000000048</gx:fovy>
+			<range>9711.399298079778</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_09F8ECF73131A5D4108F</styleUrl>
+		<Placemark id="01ABAF4E70318176830A">
+			<name>Mount Prevost - East</name>
+			<LookAt>
+				<longitude>-123.7683797140478</longitude>
+				<latitude>48.83076107381413</latitude>
+				<altitude>754.4292926637356</altitude>
+				<heading>-24.6268280372334</heading>
+				<tilt>73.52954679417765</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>542.7309776418406</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-123.767214900961,48.83138481253275,768.3350010261967</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="07B62F5D6B3181794499">
+			<name>Mount Prevost - Main (S)</name>
+			<LookAt>
+				<longitude>-123.7683792969519</longitude>
+				<latitude>48.83076046420341</latitude>
+				<altitude>754.4509162718297</altitude>
+				<heading>-24.62682772326044</heading>
+				<tilt>73.52954613630129</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>542.6546769847483</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-123.7678137522235,48.83089655756834,760.2285326188588</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="023606BC1731817A467C">
+			<name>Mount Prevost West</name>
+			<LookAt>
+				<longitude>-123.7713123734254</longitude>
+				<latitude>48.8317418645026</latitude>
+				<altitude>753.4064899405309</altitude>
+				<heading>64.62741777401784</heading>
+				<tilt>70.20264217448197</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>534.2533998344152</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-123.7713264254135,48.83156242530981,754.6957769215794</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0028E1896431817B6CC4">
+			<name>Mount Prevost Main LZ</name>
+			<LookAt>
+				<longitude>-123.7669665248986</longitude>
+				<latitude>48.82268697738066</latitude>
+				<altitude>452.4382542299733</altitude>
+				<heading>-35.95009994448176</heading>
+				<tilt>2.969627054599913</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>8777.979149732273</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0852CDF6D031A5D4108D</styleUrl>
+			<Point>
+				<coordinates>-123.7518762547916,48.81175483756658,92.95466192020157</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="0353257023318546C584">
+		<name>Hill 60 East</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Placemark id="00DE7E6AFA3181842E73">
+			<name>Hill 60 East</name>
+			<LookAt>
+				<longitude>-123.9792132455133</longitude>
+				<latitude>48.82563321522077</latitude>
+				<altitude>601.9140145568215</altitude>
+				<heading>42.9020824018674</heading>
+				<tilt>40.92080434881965</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>5641.023837676621</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-123.9783118088236,48.83161551837038,929.0439828046298</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0F21E660F5318184FD1D">
+			<name>Hill 60 East Piano</name>
+			<LookAt>
+				<longitude>-123.9792041072636</longitude>
+				<latitude>48.82562485710206</latitude>
+				<altitude>602.4376201962557</altitude>
+				<heading>42.90208928166376</heading>
+				<tilt>40.92080027000917</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>5640.331476428547</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0852CDF6D031A5D4108D</styleUrl>
+			<Point>
+				<coordinates>-123.9787302763357,48.81560661224576,220.2326733714951</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="05E0896D00318188CEBE">
+			<name>Hill 60 East Lower</name>
+			<LookAt>
+				<longitude>-123.9681123597239</longitude>
+				<latitude>48.81711725209615</latitude>
+				<altitude>494.7209011035545</altitude>
+				<heading>16.32446078589496</heading>
+				<tilt>66.35873105089881</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>4866.383595240768</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-123.9576415280008,48.81733165977359,665.4677690139755</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="0A61D49422318540B2E7">
+		<name>Hill 60 West</name>
+		<open>1</open>
+		<description><![CDATA[<div>Hill 60 Ridge near duncan<br></div>]]></description>
+		<styleUrl>#__managed_style_0B5B06873D31A5D410AB</styleUrl>
+		<Placemark id="0CF404C896318189A49D">
+			<name>Hill 60 West</name>
+			<LookAt>
+				<longitude>-124.0394533325518</longitude>
+				<latitude>48.84449232146908</latitude>
+				<altitude>444.27612026785</altitude>
+				<heading>16.27669524737108</heading>
+				<tilt>66.34976571326146</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>3777.70319850999</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-124.0319933296971,48.84603961136229,737.1281896314764</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="003CA8ADC231818AA896">
+			<name>Johns Place</name>
+			<LookAt>
+				<longitude>-124.0461772097752</longitude>
+				<latitude>48.84070628013547</latitude>
+				<altitude>308.2486859728589</altitude>
+				<heading>43.04209054274801</heading>
+				<tilt>75.96222284164575</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>3252.498426176026</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0852CDF6D031A5D4108D</styleUrl>
+			<Point>
+				<coordinates>-124.0514133280546,48.83911553649131,265.9244907581902</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="047F60196231818A44C7">
+			<name>Hill 60 West Piano</name>
+			<LookAt>
+				<longitude>-124.0394529930675</longitude>
+				<latitude>48.84449244102322</latitude>
+				<altitude>444.2887854296422</altitude>
+				<heading>16.27669550250509</heading>
+				<tilt>66.34976544894995</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>3777.671306133271</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+			<Point>
+				<coordinates>-124.033781044411,48.83440099355182,216.2560071354141</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="03B42A22B53185484788">
+		<name>Koksilah</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Placemark id="01066D06B33181913D38">
+			<name>Koksilah</name>
+			<LookAt>
+				<longitude>-123.7434223246311</longitude>
+				<latitude>48.69470350410575</latitude>
+				<altitude>480.4227291530689</altitude>
+				<heading>-100.6790474812733</heading>
+				<tilt>42.09108854215198</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>9014.170383297605</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-123.7517265206901,48.70581370173515,655.9557502413795</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0EFC573914318191C209">
+			<name>New Koksilah (Potential)</name>
+			<LookAt>
+				<longitude>-123.7509668479596</longitude>
+				<latitude>48.70182865976135</latitude>
+				<altitude>691.1194804211976</altitude>
+				<heading>-100.6481086563944</heading>
+				<tilt>42.05958920215121</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>3783.120823294739</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-123.7557102032088,48.70365873650953,782.9851344608785</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0ADE1CF684318190A0C4">
+			<name>Kinsol Valley</name>
+			<LookAt>
+				<longitude>-123.7350949400884</longitude>
+				<latitude>48.6933199025285</latitude>
+				<altitude>297.4737102244013</altitude>
+				<heading>-100.6729561096601</heading>
+				<tilt>42.08738766752858</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>8399.315027481643</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0852CDF6D031A5D4108D</styleUrl>
+			<Point>
+				<coordinates>-123.7242629457254,48.69914439646974,116.0781585112629</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="0670DE8C76318548C5E5">
+		<name>Heather Mountain</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Placemark id="0BAB24E5CC31818F1880">
+			<name>Heather Mountain</name>
+			<LookAt>
+				<longitude>-124.4242764976739</longitude>
+				<latitude>48.93062323643588</latitude>
+				<altitude>634.7497489789323</altitude>
+				<heading>-11.64804604047251</heading>
+				<tilt>61.14293110940456</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>6626.964426173363</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+			<Point>
+				<coordinates>-124.424929237671,48.93726848266002,986.4232249247628</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="0403508B2B31854911ED">
+		<name>Malahat</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Placemark id="0B6D6D142E31854A2E41">
+			<name>Malahat Take Off</name>
+			<LookAt>
+				<longitude>-123.5408043960508</longitude>
+				<latitude>48.59118091292427</latitude>
+				<altitude>514.4164394060106</altitude>
+				<heading>-122.1003647757757</heading>
+				<tilt>23.60828234992374</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>391.8278861622093</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-123.540877622627,48.59080611241991,525.1439035353446</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0E1478B7A231854B03A2">
+			<name>Bamberton Beach</name>
+			<LookAt>
+				<longitude>-123.5332729506379</longitude>
+				<latitude>48.59968976931436</latitude>
+				<altitude>160.8396316908548</altitude>
+				<heading>-102.9097996774044</heading>
+				<tilt>54.79169594257134</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>6935.339975184763</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0852CDF6D031A5D4108D</styleUrl>
+			<Point>
+				<coordinates>-123.5210514493458,48.60522985071037,2.999658086385217</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder id="03F1F72CA731854C524C">
+		<name>Mount Finlayson</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Placemark id="0E18C5FD9831854DA04F">
+			<name>Driving Range</name>
+			<LookAt>
+				<longitude>-123.5322889983552</longitude>
+				<latitude>48.48097796164687</latitude>
+				<altitude>185.833941178848</altitude>
+				<heading>-31.06264771313696</heading>
+				<tilt>54.96336151889918</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>659.6612710838963</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0852CDF6D031A5D4108D</styleUrl>
+			<Point>
+				<coordinates>-123.531088284012,48.48156813111719,176.9551740628213</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="02E5DFF6FE31854E4985">
+			<name>Estuary</name>
+			<LookAt>
+				<longitude>-123.548859982014</longitude>
+				<latitude>48.48496687531707</latitude>
+				<altitude>5.821965102872124</altitude>
+				<heading>14.305614429227</heading>
+				<tilt>47.49809571935757</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>336.7994675190494</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0852CDF6D031A5D4108D</styleUrl>
+			<Point>
+				<coordinates>-123.5496928585682,48.48533222829322,-0.0018797972768132</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="08ED3FB85631854CFD53">
+			<name>Finlayson</name>
+			<LookAt>
+				<longitude>-123.5368892502514</longitude>
+				<latitude>48.48078286467693</latitude>
+				<altitude>325.0811652180814</altitude>
+				<heading>-14.68523217861829</heading>
+				<tilt>69.9576695645146</tilt>
+				<gx:fovy>30.00000000000048</gx:fovy>
+				<range>1170.473495898623</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-124.0492994774374,48.16091227415526,381.6300284779091</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark id="0B08B6B26E318869D11C">
+		<name>Untitled path</name>
+		<LookAt>
+			<longitude>-123.9746544823681</longitude>
+			<latitude>48.69516141804065</latitude>
+			<altitude>689.3975184786991</altitude>
+			<heading>16.02896963964994</heading>
+			<tilt>1.445692490350321</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>130268.4266982973</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<LineString>
+			<coordinates>
+				-124.1432138844298,48.65638196645872,0 -124.0961244796697,48.62697149679776,0 -124.0830140134093,48.61159647832975,0 -124.0299772352205,48.61169843298638,0 -123.9905054700163,48.61308171579841,0 -123.9289230668307,48.61797291035654,0 -123.9060219214765,48.62924628744388,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Folder id="0E3BD4AF0231977E0740">
+		<name>Alberni Valley</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Placemark id="0B5B40E5C431977D44B6">
+			<name>Arrowsmith Hikers Route</name>
+			<LookAt>
+				<longitude>-124.5972011232514</longitude>
+				<latitude>49.23612849943824</latitude>
+				<altitude>1411.314837567905</altitude>
+				<heading>92.37942997112312</heading>
+				<tilt>74.16061744445301</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>894.2288674588781</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-124.5963206827943,49.23376172150085,1515.563940529904</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="0690AFB47931977CCAF4">
+			<name>Arrowsmith Landing</name>
+			<LookAt>
+				<longitude>-124.6128401227679</longitude>
+				<latitude>49.23993463498158</latitude>
+				<altitude>1152.465050852059</altitude>
+				<heading>74.38440415115183</heading>
+				<tilt>46.66803402626345</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>1808.535098587163</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0852CDF6D031A5D4108D</styleUrl>
+			<Point>
+				<coordinates>-124.6141469687565,49.23815981542543,1037.433316860458</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark id="096CEAB68E31A5D57530">
+		<name>Honey Moon Lower</name>
+		<LookAt>
+			<longitude>-124.1641714126077</longitude>
+			<latitude>48.79695353731469</latitude>
+			<altitude>481.2580223968893</altitude>
+			<heading>-154.8475694380183</heading>
+			<tilt>61.31337094228499</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>310.5572564391332</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+		<Point>
+			<coordinates>-124.164053768713,48.79694782314486,481.6968872385713</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0243F787A531A5D6276E">
+		<name>Money Moon Middle</name>
+		<LookAt>
+			<longitude>-124.1724155722883</longitude>
+			<latitude>48.79405200015756</latitude>
+			<altitude>567.7607260230144</altitude>
+			<heading>-154.8592158585402</heading>
+			<tilt>61.31365004199236</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>345.9421497177027</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+		<Point>
+			<coordinates>-124.1725623396961,48.79438770355155,567.382444804437</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0398540ECE31A5D6C21B">
+		<name>Honey Moon Upper</name>
+		<LookAt>
+			<longitude>-124.1756663919141</longitude>
+			<latitude>48.7916199677617</latitude>
+			<altitude>634.972857638234</altitude>
+			<heading>-154.8648107090046</heading>
+			<tilt>61.31517175241697</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>538.850908443419</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Point>
+			<coordinates>-124.1771327276186,48.79204285076707,666.3176261355184</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01BE56550E31A5D7614B">
+		<name>Honey Moon Bay LZ</name>
+		<LookAt>
+			<longitude>-124.1395306091121</longitude>
+			<latitude>48.80322362882811</latitude>
+			<altitude>168.3905075570618</altitude>
+			<heading>-87.15724061298222</heading>
+			<tilt>52.65166982130341</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>1661.152081832697</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0852CDF6D031A5D4108D</styleUrl>
+		<Point>
+			<coordinates>-124.1420383509498,48.80331524570802,173.1608226576886</coordinates>
+		</Point>
+	</Placemark>
+	<Folder id="0F0B40035F31A5D85C38">
+		<name>Cowichan Lake</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+	</Folder>
+	<Placemark id="0064EDF06E31A5D8E958">
+		<name>Cowichan Lake Baseball Field</name>
+		<LookAt>
+			<longitude>-124.0639125525741</longitude>
+			<latitude>48.81987585375573</latitude>
+			<altitude>174.1934440517396</altitude>
+			<heading>-53.11678863028038</heading>
+			<tilt>59.07445359869137</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>1324.407800177723</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Point>
+			<coordinates>-124.0617233674869,48.81948913143435,174.5741966294719</coordinates>
+		</Point>
+	</Placemark>
+	<Folder id="05431B580531A5DA3907">
+		<name>Mount Doug</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Placemark id="01B25BC0A931A5DA73F1">
+			<name>Lookout</name>
+			<LookAt>
+				<longitude>-123.3471903961524</longitude>
+				<latitude>48.49408974647893</latitude>
+				<altitude>188.9844003362676</altitude>
+				<heading>3.102962304493464</heading>
+				<tilt>59.03843278684514</tilt>
+				<gx:fovy>30</gx:fovy>
+				<range>406.3218125010462</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_03D1D8E28A31A5D4108B</styleUrl>
+			<Point>
+				<coordinates>-123.3467882966122,48.49311514428558,224.2048766037027</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark id="05303FCB8031A5DACC7E">
+		<name>Mound Doug Landing</name>
+		<LookAt>
+			<longitude>-123.3544437067544</longitude>
+			<latitude>48.49527030821188</latitude>
+			<altitude>43.3552482307822</altitude>
+			<heading>3.103586819418625</heading>
+			<tilt>59.04864354060026</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>1730.410642556381</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0852CDF6D031A5D4108D</styleUrl>
+		<Point>
+			<coordinates>-123.3551885559168,48.49601884608983,39.88675740791667</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F52B5B20E31A5DBB8C2">
+		<name>Island View Beach Campground</name>
+		<LookAt>
+			<longitude>-123.3634623726265</longitude>
+			<latitude>48.5568830150364</latitude>
+			<altitude>34.10778486288591</altitude>
+			<heading>79.55580830776763</heading>
+			<tilt>7.468923547637572</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>672.8299486465404</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Point>
+			<coordinates>-123.3628786160352,48.55678242896736,10.81611580309305</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C67113DE131A5DD56A9">
+		<name>Dallas road</name>
+		<LookAt>
+			<longitude>-123.3528975180155</longitude>
+			<latitude>48.40820528258568</latitude>
+			<altitude>11.87738881751324</altitude>
+			<heading>79.01924745437933</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>1679.018302523182</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Point>
+			<coordinates>-123.3508023913044,48.40548753285804,9.6161429624826</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A4D4010A331A5E0E19C">
+		<name>Green Mountain</name>
+		<LookAt>
+			<longitude>-124.3475137436468</longitude>
+			<latitude>49.05790793934121</latitude>
+			<altitude>1325.486380157352</altitude>
+			<heading>13.95954924785845</heading>
+			<tilt>62.78059818058866</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>6258.549623780418</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Point>
+			<coordinates>-124.348161268344,49.05438656068254,1310.501553043425</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E4C7CDDB131A5E15C8A">
+		<name>Green Mountain Landing</name>
+		<LookAt>
+			<longitude>-124.3674393629628</longitude>
+			<latitude>49.0939692030349</latitude>
+			<altitude>296.0511653972534</altitude>
+			<heading>13.92871979543735</heading>
+			<tilt>62.74873815220005</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>2271.719581767102</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F87745A1031A5D41088</styleUrl>
+		<Point>
+			<coordinates>-124.3699992253308,49.08811465891262,267.618857745309</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A7FBC308631A5E39046">
+		<name>Transfer Beach</name>
+		<LookAt>
+			<longitude>-123.8081004728071</longitude>
+			<latitude>48.99199333121683</latitude>
+			<altitude>8.072215490714257</altitude>
+			<heading>99.01377305517262</heading>
+			<tilt>7.834176355248723</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>175.1263598233163</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0A7633C00731A5E3C391</styleUrl>
+		<Point>
+			<coordinates>-123.8078823289861,48.99218670823889,8.252481824105754</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

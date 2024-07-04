@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on X/Isle</title>
+    <link>http://localhost:60768/tags/</link>
+    <description>Recent content in Tags on X/Isle</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Mon, 01 Jul 2024 12:01:02 -0700</lastBuildDate><atom:link href="http://localhost:60768/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alberni</title>
+      <link>http://localhost:60768/tags/alberni/</link>
+      <pubDate>Mon, 01 Jul 2024 12:01:02 -0700</pubDate>
+      
+      <guid>http://localhost:60768/tags/alberni/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>H&amp;F</title>
+      <link>http://localhost:60768/tags/hf/</link>
+      <pubDate>Mon, 01 Jul 2024 12:01:02 -0700</pubDate>
+      
+      <guid>http://localhost:60768/tags/hf/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LZ</title>
+      <link>http://localhost:60768/tags/lz/</link>
+      <pubDate>Thu, 27 Jun 2024 11:23:13 -0700</pubDate>
+      
+      <guid>http://localhost:60768/tags/lz/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Youbou</title>
+      <link>http://localhost:60768/tags/youbou/</link>
+      <pubDate>Thu, 27 Jun 2024 11:23:13 -0700</pubDate>
+      
+      <guid>http://localhost:60768/tags/youbou/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

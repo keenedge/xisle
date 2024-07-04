@@ -1,0 +1,53 @@
+
+{{ $kmlFolder := .Page.Params.kmlFolder }}
+{{ $kmlName := .Page.Params.kmlName }}
+{{ $errorMessage := ""}}
+{{ $coordsString := "0,0,0" }}
+{{ $lat := -1 }}
+{{ $lon := -1 }}
+{{ $elevation := -1 }}
+{{ with $folder := ( index (where .Site.Data.X_Isle.Document.Folder "name" $kmlFolder) 0 )}}
+  {{ with $placemark := ( index (where $folder.Placemark "name" $kmlName) 0 )}}
+    {{ $coordsString = $placemark.Point.coordinates}}
+  {{ else }}
+    {{ $errorMessage = printf "Could not find a placemark for %s/%s" $kmlFolder $kmlName }}
+  {{ end }}
+{{ else }}
+  {{ $errorMessage = printf "Could not find a folder named %s" $kmlFolder }}
+{{ end }}
+{{ with split $coordsString "," }}
+  {{ $lon = printf "%.4f" (float (index . 0)) }}
+  {{ $lat = printf "%.4f" (float (index . 1)) }}
+  {{ $elevation = printf "%.0f" (float (index . 2)) }}
+{{ end }}
+<div id="map" class=""></div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZ3Rpc3Npbmd0b24iLCJhIjoiY2xmbXk5aTh3MGdoMjNvbW9ycXo0dWszaSJ9.GZly6sNORVlRNTHqRgrKFg';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        zoom: 15,
+        center: [ {{ $lon }}, {{ $lat }}],
+        style: 'mapbox://styles/mapbox/satellite-streets-v12'
+    });
+    map.addControl(new mapboxgl.FullscreenControl());
+
+
+    map.on('style.load', () => {
+        map.addSource('mapbox-dem', {
+            'type': 'raster-dem',
+            'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
+            'tileSize': 512,
+            'maxzoom': 17
+        });
+        // add the DEM source as a terrain layer with exaggerated height
+        map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
+
+        const marker1 = new mapboxgl.Marker()
+        .setLngLat([{{ $lon }}, {{ $lat }}])
+        .addTo(map);
+    });
+
+    map.on('idle',function(){
+map.resize()
+})
+</script> 

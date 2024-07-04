@@ -1,0 +1,26 @@
+
+{{ $data := dict }}
+{{ $data := .Site.Data.places.Document.Folder.Placemark }}
+
+{{/* Add pages and page resources. */}}
+{{ range $data }}
+
+  {{/* Add page. */}}
+  {{ $content := dict "mediaType" "text/markdown" "value" .summary }}
+  {{ $coordsArray := split .Point.coordinates "," }}
+  {{ $lon := index $coordsArray 0 }}
+  {{ $lat := index $coordsArray 1 }}
+  {{ $elevation := index $coordsArray 2 }}
+  {{ $tags := slice "nine" "ten"}}
+  {{ $params := dict "name" .name "lat" $lat "lon" $lon "elevation" $elevation "tags" $tags "res" .Resources }}
+  {{ $page := dict
+    "content" $content
+    "kind" "page"
+    "params" $params
+    "path" .name
+    "title" .name
+    "name" "Erics Bluff"
+  }}
+  {{ $.AddPage $page }}
+
+{{ end }}
