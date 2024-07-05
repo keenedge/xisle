@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Launch on X/Isle</title>
-    <link>http://localhost:1313/tags/launch/</link>
+    <link>https://xisle.net/tags/launch/</link>
     <description>Recent content in Launch on X/Isle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 </copyright>
-    <lastBuildDate>Thu, 04 Jul 2024 21:22:11 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/launch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jul 2024 21:22:11 -0700</lastBuildDate><atom:link href="https://xisle.net/tags/launch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Green Mountain</title>
-      <link>http://localhost:1313/pins/green-mountain/</link>
+      <link>https://xisle.net/pins/green-mountain/</link>
       <pubDate>Thu, 04 Jul 2024 21:22:11 -0700</pubDate>
       
-      <guid>http://localhost:1313/pins/green-mountain/</guid>
+      <guid>https://xisle.net/pins/green-mountain/</guid>
       <description>Intro Gallery Airspace </description>
       
     </item>
