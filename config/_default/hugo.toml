@@ -20,6 +20,9 @@ enableEmoji = true
 
 # googleAnalytics = "G-XXXXXXXXX"
 
+[markup.goldmark.renderer]
+hardWraps = true
+
 [imaging]
   anchor = 'Center'
 

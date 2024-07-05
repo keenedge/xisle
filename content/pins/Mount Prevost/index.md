@@ -5,6 +5,7 @@ kmlName = "Mount Prevost - East"
 kmlFolder = "Mount Prevost"
 weight = 1
 tags= ["H&F"]
+heroStyle="basic"
 draft = false
 +++
 ## Intro
@@ -12,7 +13,7 @@ This is the main Site for south Vancouver island.   W, S and E east facing launc
 
 ## Gallery
 {{< gallery >}}
-  <img src="gallery/01.jpg" class="grid-w33" />
+  <img src="featured.jpg" class="grid-w33" />
   <img src="gallery/02.jpg" class="grid-w33" />
   <img src="gallery/03.jpg" class="grid-w33" />
   <img src="gallery/04.jpg" class="grid-w33" />

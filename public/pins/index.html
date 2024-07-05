@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=60768&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="en" />
@@ -15,7 +15,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:60768/pins/" />
+  <link rel="canonical" href="http://localhost:1313/pins/" />
   
   <link rel="alternate" type="application/rss+xml" href="/pins/index.xml" title="X/Isle" />
   
@@ -63,14 +63,16 @@
   
   
   
-  <meta property="og:url" content="http://localhost:60768/pins/">
+  <meta property="og:url" content="http://localhost:1313/pins/">
   <meta property="og:site_name" content="X/Isle">
   <meta property="og:title" content="Pins for Flying Sites around Vancouver Island">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
+    <meta property="og:image" content="http://localhost:1313/pins/featured.jpg">
 
   
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/pins/featured.jpg">
   <meta name="twitter:title" content="Pins for Flying Sites around Vancouver Island">
 
   
@@ -118,7 +120,6 @@
   <style>
   body { margin: 0; padding: 0; }
   #map { height: 500px; top: 0; bottom: 0; width: 100%; }
-  
   </style>
   
 </head>
@@ -570,11 +571,33 @@
 
 
 
- 
-  
-   
-  
- 
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/pins/featured_hua83847138af90be5822d6efac1ff0b86_223382_1200x0_resize_q75_box.jpg);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
 
  <header>
   
@@ -701,6 +724,134 @@
       
         
         
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article " href="/pins/green-mountain/">
+    <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/pins/green-mountain/">Green Mountain</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-07-04 21:22:11 -0700 PDT">4 July 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hf/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    H&amp;F
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/launch/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Launch
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Intro Gallery Airspace 
+      </div>
+      
+    </div>
+  </a>
+
         
         
 
@@ -1001,8 +1152,260 @@
 
 
 
+  <a class="flex flex-wrap article " href="/pins/victoria-peak/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/pins/victoria-peak/featured_hu89cd5ac405a861214b0895164f5bb16c_262780_600x0_resize_q75_box.jpg);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/pins/victoria-peak/">Victoria Peak</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-06-26 12:03:18 -0700 PDT">26 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hf/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    H&amp;F
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Pretty remote but an amazing place to fly.
+      </div>
+      
+    </div>
+  </a>
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article " href="/pins/transfer-beach/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/pins/transfer-beach/featured_hua83847138af90be5822d6efac1ff0b86_223382_600x0_resize_q75_box.jpg);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/pins/transfer-beach/">Transfer Beach</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-06-26 12:03:18 -0700 PDT">26 June 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ridge/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Ridge
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        A small Ridge soaring site near Ladysmith.
+      </div>
+      
+    </div>
+  </a>
+
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a class="flex flex-wrap article " href="/pins/stinky-fish/">
-    <div class=" mt-3 md:mt-0">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/pins/stinky-fish/featured_hud3f9b80972230cb27a443c13d9b69495_240039_600x0_resize_q75_box.jpg);"></div>
+        
+      <div class=" mt-3 md:mt-0">
       <div class="items-center text-left text-xl font-semibold">
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
@@ -1490,7 +1893,11 @@
 
 
   <a class="flex flex-wrap article " href="/pins/mount-prevost/">
-    <div class=" mt-3 md:mt-0">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/pins/mount-prevost/featured_huff78ceece6bbb23390b5f41ef6ad70b4_392458_600x0_resize_q75_box.jpg);"></div>
+        
+      <div class=" mt-3 md:mt-0">
       <div class="items-center text-left text-xl font-semibold">
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
@@ -1587,257 +1994,6 @@
 
         
         
-        
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/pins/holmes-plateau/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/pins/holmes-plateau/">Holmes Plateau</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hf/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    H&amp;F
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-      </div>
-      
-      <div class="py-1 max-w-fit prose dark:prose-invert">
-        2 to 3 hour hike.
-      </div>
-      
-    </div>
-  </a>
-
-        
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <a class="flex flex-wrap article " href="/pins/erics-bluff/">
-    <div class=" mt-3 md:mt-0">
-      <div class="items-center text-left text-xl font-semibold">
-        
-        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/pins/erics-bluff/">Eric's Bluff</div>
-        
-        
-        
-      </div>
-      <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">1 January 0001</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
-  
-
-  
-  
-</div>
-
-
-
-
-
-<div class="flex flex-row flex-wrap items-center">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/youbou/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Youbou
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hf/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    H&amp;F
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-</div>
-
-
-
-      </div>
-      
-      <div class="py-1 max-w-fit prose dark:prose-invert">
-        Hike to Chistocher Rock and then keep heading higher for another 10 minutes.
-      </div>
-      
-    </div>
-  </a>
-
-        
-        
       
     </section>
 
@@ -1845,7 +2001,28 @@
 
   
 
+    <ul class="flex flex-row mt-8 justify-center"><li>
+          <a
+              href="/pins/"
+              class="
+          bg-primary-200 dark:bg-primary-400 dark:text-neutral-800
+         mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
+          >1</a>
+      </li><li>
+          <a
+              href="/pins/page/2/"
+              class=" mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
+          >2</a>
+      </li>
+    <li>
+      <a
+          href="/pins/page/2/"
+          class="mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
+          rel="next"
+      >&rarr;</a>
+    </li>
     
+  </ul>
 
   
       
@@ -1895,7 +2072,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:60768/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div

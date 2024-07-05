@@ -7,7 +7,7 @@ kmlFolder = "Youbou"
 draft = false
 
 +++
-Hike to Chistocher Rock and then keep heading higher for another 10 minutes.  Faces south.  Not great in east wind.
+Hike to Chistopher Rock and then keep heading higher for another 10 minutes.  Faces south.  Not great in east wind.
 
 ## Gallery
 {{< gallery >}}

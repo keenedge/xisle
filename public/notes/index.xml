@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on X/Isle</title>
-    <link>http://localhost:60768/notes/</link>
+    <link>http://localhost:1313/notes/</link>
     <description>Recent content in Notes on X/Isle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 </copyright>
-    <lastBuildDate>Tue, 02 Jul 2024 22:13:20 -0700</lastBuildDate><atom:link href="http://localhost:60768/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jul 2024 22:13:20 -0700</lastBuildDate><atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://localhost:60768/notes/about/</link>
+      <link>http://localhost:1313/notes/about/</link>
       <pubDate>Tue, 02 Jul 2024 22:13:20 -0700</pubDate>
       
-      <guid>http://localhost:60768/notes/about/</guid>
-      <description>You can probably find better, more current, info in Instchat or Facesnap.</description>
-      
+      <guid>http://localhost:1313/notes/about/</guid>
+      <description>You can probably find better, more current, info in Instachat or Facesnap.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/notes/about/featured.jpg" />
     </item>
     
   </channel>
