@@ -2,7 +2,29 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document id="1Cwdi0RuzZVnI7cQMrFn5q4kipjDRQ7MG">
 	<name>X/Isle</name>
-	<gx:CascadingStyle kml:id="__managed_style_15F48B825C31BF4C8AF8">
+	<gx:CascadingStyle kml:id="__managed_style_156EE108B531BF70CC68">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2006&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_034097C6B931BF70CC68">
 		<Style>
 			<IconStyle>
 				<Icon>
@@ -23,7 +45,41 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_113322444131BF4C8AEA">
+	<StyleMap id="__managed_style_02551CA1B431BF70CC67">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_034097C6B931BF70CC68</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_156EE108B531BF70CC68</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_00A7DD7F8931BF70CC47">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/simple_template.kml#main</styleUrl>
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4.8</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>panel</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_1DDF84375A31BF70CC46">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/simple_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -46,41 +102,17 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_087003085131BF4C8AEA">
+	<StyleMap id="__managed_style_04CE3A504131BF70CC46">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_113322444131BF4C8AEA</styleUrl>
+			<styleUrl>#__managed_style_1DDF84375A31BF70CC46</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_2F4EDB036831BF4C8AEA</styleUrl>
+			<styleUrl>#__managed_style_00A7DD7F8931BF70CC47</styleUrl>
 		</Pair>
 	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_2F4EDB036831BF4C8AEA">
-		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/simple_template.kml#main</styleUrl>
-		<Style>
-			<IconStyle>
-				<scale>1.2</scale>
-				<Icon>
-					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>4.8</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>40ffffff</color>
-			</PolyStyle>
-			<BalloonStyle>
-				<gx:displayMode>panel</gx:displayMode>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_2B5EAA6A2731BF4C8AE8">
+	<gx:CascadingStyle kml:id="__managed_style_264DF45ADB31BF70CC42">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -103,7 +135,7 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_15AE4FB1FA31BF4C8AE8">
+	<gx:CascadingStyle kml:id="__managed_style_1A218DA3C831BF70CC42">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.0.26.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
@@ -125,12 +157,11 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_149FC692EE31BF4C8AE4">
+	<gx:CascadingStyle kml:id="__managed_style_1D542D9FC331BF70CC40">
 		<Style>
 			<IconStyle>
-				<scale>1.2</scale>
 				<Icon>
-					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2243&amp;scale=4</href>
 				</Icon>
 				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
@@ -138,7 +169,7 @@
 			</LabelStyle>
 			<LineStyle>
 				<color>ff2dc0fb</color>
-				<width>4.8</width>
+				<width>3.2</width>
 			</LineStyle>
 			<PolyStyle>
 				<color>40ffffff</color>
@@ -147,27 +178,17 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_02189756B331BF4C8AE8">
+	<StyleMap id="__managed_style_00CB90397C31BF70CC40">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_15AE4FB1FA31BF4C8AE8</styleUrl>
+			<styleUrl>#__managed_style_1D542D9FC331BF70CC40</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_2B5EAA6A2731BF4C8AE8</styleUrl>
+			<styleUrl>#__managed_style_079D2F52F631BF70CC41</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="__managed_style_069FF87FFB31BF4C8AE6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_17770720EE31BF4C8AE6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_2CBEF7294631BF4C8AE6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_2CBEF7294631BF4C8AE6">
+	<gx:CascadingStyle kml:id="__managed_style_21CC2FAEC231BF70CC3D">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
@@ -189,7 +210,7 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_17770720EE31BF4C8AE6">
+	<gx:CascadingStyle kml:id="__managed_style_1ABB84800C31BF70CC3D">
 		<Style>
 			<IconStyle>
 				<Icon>
@@ -210,12 +231,22 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_20ABCCC84131BF4C8AF8">
+	<StyleMap id="__managed_style_0050ECD1DC31BF70CC3D">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1ABB84800C31BF70CC3D</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_21CC2FAEC231BF70CC3D</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_0FACE91BE731BF70CC3B">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
 				<Icon>
-					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2006&amp;scale=4</href>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
 				</Icon>
 				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
 			</IconStyle>
@@ -232,7 +263,7 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_2E08516FA731BF4C8AE5">
+	<gx:CascadingStyle kml:id="__managed_style_079D2F52F631BF70CC41">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
@@ -254,58 +285,7 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_0D2F9110C231BF4C8AE5">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_182287FC3031BF4C8AE5</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_2E08516FA731BF4C8AE5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="__managed_style_04797F5D2D31BF4C8AE3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_05C778EE9731BF4C8AE4</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_149FC692EE31BF4C8AE4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_182287FC3031BF4C8AE5">
-		<Style>
-			<IconStyle>
-				<Icon>
-					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2243&amp;scale=4</href>
-				</Icon>
-				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-			</IconStyle>
-			<LabelStyle>
-			</LabelStyle>
-			<LineStyle>
-				<color>ff2dc0fb</color>
-				<width>3.2</width>
-			</LineStyle>
-			<PolyStyle>
-				<color>40ffffff</color>
-			</PolyStyle>
-			<BalloonStyle>
-			</BalloonStyle>
-		</Style>
-	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_0F8F03474031BF4C8AF8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#__managed_style_15F48B825C31BF4C8AF8</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#__managed_style_20ABCCC84131BF4C8AF8</styleUrl>
-		</Pair>
-	</StyleMap>
-	<gx:CascadingStyle kml:id="__managed_style_05C778EE9731BF4C8AE4">
+	<gx:CascadingStyle kml:id="__managed_style_1D9F43696531BF70CC3A">
 		<Style>
 			<IconStyle>
 				<Icon>
@@ -326,14 +306,74 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_07DF189D3B31BF70CC42">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1A218DA3C831BF70CC42</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_264DF45ADB31BF70CC42</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="__managed_style_0751CACD8D31BF70CC3A">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1D9F43696531BF70CC3A</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_0FACE91BE731BF70CC3B</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Folder id="082678778C31A5D4EA74">
 		<name>Honey Moon Bay</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
+	</Folder>
+	<Folder id="02214F6C1A31BF65A364">
+		<name>Comox Lake</name>
+		<open>1</open>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
+		<Placemark id="06C819715C31BF68B57F">
+			<name>Comox Lake Landing</name>
+			<LookAt>
+				<longitude>-125.1863981786348</longitude>
+				<latitude>49.62059789242334</latitude>
+				<altitude>139.157901734611</altitude>
+				<heading>0</heading>
+				<tilt>0</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>225.3839825358591</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
+			<Point>
+				<coordinates>-125.1863110968919,49.62032560719773,138.0984133277019</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark id="00BC68F94231BF6A5AA3">
+			<name>Comox Lake</name>
+			<LookAt>
+				<longitude>-125.1728865377699</longitude>
+				<latitude>49.63371217746666</latitude>
+				<altitude>584.4396026927941</altitude>
+				<heading>-34.83214598277981</heading>
+				<tilt>58.69011969263418</tilt>
+				<gx:fovy>35</gx:fovy>
+				<range>246.1030643987397</range>
+				<altitudeMode>absolute</altitudeMode>
+			</LookAt>
+			<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
+			<Point>
+				<coordinates>-125.1695464542558,49.64123027825134,592.7048979437059</coordinates>
+			</Point>
+		</Placemark>
 	</Folder>
 	<Folder id="003A3009D7318545B745">
 		<name>Youbou</name>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<open>1</open>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Placemark id="052DD05CE131818C62DB">
 			<name>Holmes Plateau</name>
 			<LookAt>
@@ -346,7 +386,7 @@
 				<range>555.4205742257182</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-124.1844825516024,48.87821276132664,823.5797158013212</coordinates>
 			</Point>
@@ -363,7 +403,7 @@
 				<range>798.5858547280077</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+			<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 			<Point>
 				<coordinates>-124.2261978086072,48.87770849434637,172.1375483854937</coordinates>
 			</Point>
@@ -380,7 +420,7 @@
 				<range>356.7384840978775</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-124.2192130677073,48.88313060257573,496.8872562820039</coordinates>
 			</Point>
@@ -397,7 +437,7 @@
 				<range>798.9361146095325</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-124.2181736800844,48.88184544591201,432.9729392491236</coordinates>
 			</Point>
@@ -405,7 +445,8 @@
 	</Folder>
 	<Folder id="0C20ED88E9318544D557">
 		<name>Mount Good</name>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<open>1</open>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Placemark id="0DE902286131818BBBFC">
 			<name>Mount Good</name>
 			<LookAt>
@@ -418,7 +459,7 @@
 				<range>3161.183505639201</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-124.0945704741643,48.85618807481325,722.6415140632924</coordinates>
 			</Point>
@@ -435,7 +476,7 @@
 				<range>3541.539407222299</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+			<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 			<Point>
 				<coordinates>-124.0878119352679,48.83539733280395,208.8832051854339</coordinates>
 			</Point>
@@ -443,7 +484,8 @@
 	</Folder>
 	<Folder id="0C16B7188231817EBBF7">
 		<name>Stinky Fish</name>
-		<styleUrl>#__managed_style_02189756B331BF4C8AE8</styleUrl>
+		<open>1</open>
+		<styleUrl>#__managed_style_07DF189D3B31BF70CC42</styleUrl>
 		<Placemark id="01A7C15C803181821461">
 			<name>Stinky Fish</name>
 			<LookAt>
@@ -456,7 +498,7 @@
 				<range>3212.643338841735</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-124.1457646750253,48.73416715658635,688.9756870868242</coordinates>
 			</Point>
@@ -473,7 +515,7 @@
 				<range>3162.314572487958</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+			<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 			<Point>
 				<coordinates>-124.1257999147939,48.7394503422602,273.3128842378538</coordinates>
 			</Point>
@@ -481,6 +523,7 @@
 	</Folder>
 	<Folder id="0B98BDE89031817AA859">
 		<name>Mount Prevost</name>
+		<open>1</open>
 		<LookAt>
 			<longitude>-123.77261164395</longitude>
 			<latitude>48.82083787010234</latitude>
@@ -491,7 +534,7 @@
 			<range>9711.399298079778</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_02189756B331BF4C8AE8</styleUrl>
+		<styleUrl>#__managed_style_07DF189D3B31BF70CC42</styleUrl>
 		<Placemark id="01ABAF4E70318176830A">
 			<name>Mount Prevost - East</name>
 			<LookAt>
@@ -504,7 +547,7 @@
 				<range>542.7309776418406</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-123.767214900961,48.83138481253275,768.3350010261967</coordinates>
 			</Point>
@@ -521,7 +564,7 @@
 				<range>542.6546769847483</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-123.7678137522235,48.83089655756834,760.2285326188588</coordinates>
 			</Point>
@@ -538,7 +581,7 @@
 				<range>534.2533998344152</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-123.7713264254135,48.83156242530981,754.6957769215794</coordinates>
 			</Point>
@@ -555,7 +598,7 @@
 				<range>8777.979149732273</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+			<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 			<Point>
 				<coordinates>-123.7518762547916,48.81175483756658,92.95466192020157</coordinates>
 			</Point>
@@ -563,7 +606,8 @@
 	</Folder>
 	<Folder id="0353257023318546C584">
 		<name>Hill 60 East</name>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<open>1</open>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Placemark id="00DE7E6AFA3181842E73">
 			<name>Hill 60 East</name>
 			<LookAt>
@@ -576,7 +620,7 @@
 				<range>5641.023837676621</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-123.9783118088236,48.83161551837038,929.0439828046298</coordinates>
 			</Point>
@@ -593,7 +637,7 @@
 				<range>5640.331476428547</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+			<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 			<Point>
 				<coordinates>-123.9787302763357,48.81560661224576,220.2326733714951</coordinates>
 			</Point>
@@ -610,7 +654,7 @@
 				<range>4866.383595240768</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-123.9576415280008,48.81733165977359,665.4677690139755</coordinates>
 			</Point>
@@ -620,7 +664,7 @@
 		<name>Hill 60 West</name>
 		<open>1</open>
 		<description><![CDATA[<div>Hill 60 Ridge near duncan<br></div>]]></description>
-		<styleUrl>#__managed_style_087003085131BF4C8AEA</styleUrl>
+		<styleUrl>#__managed_style_04CE3A504131BF70CC46</styleUrl>
 		<Placemark id="0CF404C896318189A49D">
 			<name>Hill 60 West</name>
 			<LookAt>
@@ -633,7 +677,7 @@
 				<range>3777.70319850999</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-124.0319933296971,48.84603961136229,737.1281896314764</coordinates>
 			</Point>
@@ -650,7 +694,7 @@
 				<range>3252.498426176026</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+			<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 			<Point>
 				<coordinates>-124.0514133280546,48.83911553649131,265.9244907581902</coordinates>
 			</Point>
@@ -667,7 +711,7 @@
 				<range>3777.671306133271</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+			<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 			<Point>
 				<coordinates>-124.033781044411,48.83440099355182,216.2560071354141</coordinates>
 			</Point>
@@ -676,7 +720,7 @@
 	<Folder id="03B42A22B53185484788">
 		<name>Koksilah</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Placemark id="01066D06B33181913D38">
 			<name>Koksilah</name>
 			<LookAt>
@@ -689,7 +733,7 @@
 				<range>9014.170383297605</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-123.7517265206901,48.70581370173515,655.9557502413795</coordinates>
 			</Point>
@@ -706,7 +750,7 @@
 				<range>3783.120823294739</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-123.7557102032088,48.70365873650953,782.9851344608785</coordinates>
 			</Point>
@@ -723,7 +767,7 @@
 				<range>8399.315027481643</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+			<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 			<Point>
 				<coordinates>-123.7242629457254,48.69914439646974,116.0781585112629</coordinates>
 			</Point>
@@ -732,7 +776,7 @@
 	<Folder id="0670DE8C76318548C5E5">
 		<name>Heather Mountain</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Placemark id="0BAB24E5CC31818F1880">
 			<name>Heather Mountain</name>
 			<LookAt>
@@ -745,7 +789,7 @@
 				<range>6626.964426173363</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+			<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 			<Point>
 				<coordinates>-124.424929237671,48.93726848266002,986.4232249247628</coordinates>
 			</Point>
@@ -754,7 +798,7 @@
 	<Folder id="0403508B2B31854911ED">
 		<name>Malahat</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Placemark id="0B6D6D142E31854A2E41">
 			<name>Malahat Take Off</name>
 			<LookAt>
@@ -767,7 +811,7 @@
 				<range>391.8278861622093</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-123.540877622627,48.59080611241991,525.1439035353446</coordinates>
 			</Point>
@@ -784,7 +828,7 @@
 				<range>6935.339975184763</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+			<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 			<Point>
 				<coordinates>-123.5210514493458,48.60522985071037,2.999658086385217</coordinates>
 			</Point>
@@ -793,7 +837,7 @@
 	<Folder id="03F1F72CA731854C524C">
 		<name>Mount Finlayson</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Placemark id="0E18C5FD9831854DA04F">
 			<name>Driving Range</name>
 			<LookAt>
@@ -806,7 +850,7 @@
 				<range>659.6612710838963</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+			<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 			<Point>
 				<coordinates>-123.531088284012,48.48156813111719,176.9551740628213</coordinates>
 			</Point>
@@ -823,7 +867,7 @@
 				<range>336.7994675190494</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+			<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 			<Point>
 				<coordinates>-123.5496928585682,48.48533222829322,-0.0018797972768132</coordinates>
 			</Point>
@@ -840,7 +884,7 @@
 				<range>1170.473495898623</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-124.0492994774374,48.16091227415526,381.6300284779091</coordinates>
 			</Point>
@@ -858,7 +902,7 @@
 			<range>130268.4266982973</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<LineString>
 			<coordinates>
 				-124.1432138844298,48.65638196645872,0 -124.0961244796697,48.62697149679776,0 -124.0830140134093,48.61159647832975,0 -124.0299772352205,48.61169843298638,0 -123.9905054700163,48.61308171579841,0 -123.9289230668307,48.61797291035654,0 -123.9060219214765,48.62924628744388,0 
@@ -868,7 +912,7 @@
 	<Folder id="0E3BD4AF0231977E0740">
 		<name>Alberni Valley</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Placemark id="0B5B40E5C431977D44B6">
 			<name>Arrowsmith Hikers Route</name>
 			<LookAt>
@@ -881,7 +925,7 @@
 				<range>894.2288674588781</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-124.5963206827943,49.23376172150085,1515.563940529904</coordinates>
 			</Point>
@@ -898,7 +942,7 @@
 				<range>1808.535098587163</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+			<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 			<Point>
 				<coordinates>-124.6141469687565,49.23815981542543,1037.433316860458</coordinates>
 			</Point>
@@ -916,7 +960,7 @@
 			<range>310.5572564391332</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+		<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 		<Point>
 			<coordinates>-124.164053768713,48.79694782314486,481.6968872385713</coordinates>
 		</Point>
@@ -933,7 +977,7 @@
 			<range>345.9421497177027</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+		<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 		<Point>
 			<coordinates>-124.1725623396961,48.79438770355155,567.382444804437</coordinates>
 		</Point>
@@ -950,7 +994,7 @@
 			<range>538.850908443419</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Point>
 			<coordinates>-124.1771327276186,48.79204285076707,666.3176261355184</coordinates>
 		</Point>
@@ -967,7 +1011,7 @@
 			<range>1661.152081832697</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+		<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 		<Point>
 			<coordinates>-124.1420383509498,48.80331524570802,173.1608226576886</coordinates>
 		</Point>
@@ -975,7 +1019,7 @@
 	<Folder id="0F0B40035F31A5D85C38">
 		<name>Cowichan Lake</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 	</Folder>
 	<Placemark id="0064EDF06E31A5D8E958">
 		<name>Cowichan Lake Baseball Field</name>
@@ -989,7 +1033,7 @@
 			<range>1324.407800177723</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Point>
 			<coordinates>-124.0617233674869,48.81948913143435,174.5741966294719</coordinates>
 		</Point>
@@ -997,7 +1041,7 @@
 	<Folder id="05431B580531A5DA3907">
 		<name>Mount Doug</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Placemark id="01B25BC0A931A5DA73F1">
 			<name>Lookout</name>
 			<LookAt>
@@ -1010,7 +1054,7 @@
 				<range>406.3218125010462</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-123.3467882966122,48.49311514428558,224.2048766037027</coordinates>
 			</Point>
@@ -1028,7 +1072,7 @@
 			<range>1730.410642556381</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+		<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 		<Point>
 			<coordinates>-123.3551885559168,48.49601884608983,39.88675740791667</coordinates>
 		</Point>
@@ -1045,7 +1089,7 @@
 			<range>672.8299486465404</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Point>
 			<coordinates>-123.3628786160352,48.55678242896736,10.81611580309305</coordinates>
 		</Point>
@@ -1062,7 +1106,7 @@
 			<range>1679.018302523182</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Point>
 			<coordinates>-123.3508023913044,48.40548753285804,9.6161429624826</coordinates>
 		</Point>
@@ -1079,7 +1123,7 @@
 			<range>175.1263598233163</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_0F8F03474031BF4C8AF8</styleUrl>
+		<styleUrl>#__managed_style_02551CA1B431BF70CC67</styleUrl>
 		<Point>
 			<coordinates>-123.8078823289861,48.99218670823889,8.252481824105754</coordinates>
 		</Point>
@@ -1087,7 +1131,7 @@
 	<Folder id="05D365DE9B31BE43BD1A">
 		<name>Green Mountain</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Placemark id="0A4D4010A331A5E0E19C">
 			<name>Green Mountain</name>
 			<LookAt>
@@ -1100,7 +1144,7 @@
 				<range>6258.549623780418</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+			<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 			<Point>
 				<coordinates>-124.348161268344,49.05438656068254,1310.501553043425</coordinates>
 			</Point>
@@ -1117,7 +1161,7 @@
 				<range>2271.719581767102</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+			<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 			<Point>
 				<coordinates>-124.3699992253308,49.08811465891262,267.618857745309</coordinates>
 			</Point>
@@ -1126,7 +1170,7 @@
 	<Folder id="0B10FEEDF331BF449D5B">
 		<name>Bluff Mountain</name>
 		<open>1</open>
-		<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+		<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 		<Placemark id="01F468292031BF3EF4C0">
 			<name>Bluff Mountain</name>
 			<LookAt>
@@ -1139,7 +1183,7 @@
 				<range>1026.647406252305</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_0D2F9110C231BF4C8AE5</styleUrl>
+			<styleUrl>#__managed_style_00CB90397C31BF70CC40</styleUrl>
 			<Point>
 				<coordinates>-123.7566599111651,48.41636607228549,350.4735496351657</coordinates>
 			</Point>
@@ -1156,7 +1200,7 @@
 				<range>752.6879963990359</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_069FF87FFB31BF4C8AE6</styleUrl>
+			<styleUrl>#__managed_style_0050ECD1DC31BF70CC3D</styleUrl>
 			<Point>
 				<coordinates>-123.7403603034698,48.4010224980114,37.97694486458812</coordinates>
 			</Point>
@@ -1173,7 +1217,7 @@
 				<range>787.623313782824</range>
 				<altitudeMode>absolute</altitudeMode>
 			</LookAt>
-			<styleUrl>#__managed_style_04797F5D2D31BF4C8AE3</styleUrl>
+			<styleUrl>#__managed_style_0751CACD8D31BF70CC3A</styleUrl>
 			<Point>
 				<coordinates>-123.7541363080498,48.41005164566495,151.7201123593959</coordinates>
 			</Point>

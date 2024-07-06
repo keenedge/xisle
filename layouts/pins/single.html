@@ -79,7 +79,9 @@
         {{ partial "series/series.html" . }}
 
         <div class="article-content max-w-prose mb-20">
+          <p>** All of this data is unverified **</p>
           {{ .Content }}
+
 
           {{- with .Resources.GetMatch "landings.md" -}} 
           {{- .Content -}} 
