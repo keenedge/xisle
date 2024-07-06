@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ridge on X/Isle</title>
-    <link>https://xisle.net/tags/ridge/</link>
+    <link>http://localhost:1313/tags/ridge/</link>
     <description>Recent content in Ridge on X/Isle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 </copyright>
-    <lastBuildDate>Wed, 26 Jun 2024 12:03:18 -0700</lastBuildDate><atom:link href="https://xisle.net/tags/ridge/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jun 2024 12:03:18 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/ridge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Transfer Beach</title>
-      <link>https://xisle.net/pins/transfer-beach/</link>
+      <link>http://localhost:1313/pins/transfer-beach/</link>
       <pubDate>Wed, 26 Jun 2024 12:03:18 -0700</pubDate>
       
-      <guid>https://xisle.net/pins/transfer-beach/</guid>
+      <guid>http://localhost:1313/pins/transfer-beach/</guid>
       <description>A small Ridge soaring site near Ladysmith.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://xisle.net/pins/transfer-beach/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/pins/transfer-beach/featured.jpg" />
     </item>
     
   </channel>

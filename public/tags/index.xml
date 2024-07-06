@@ -2,68 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on X/Isle</title>
-    <link>https://xisle.net/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on X/Isle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 </copyright>
-    <lastBuildDate>Thu, 04 Jul 2024 21:22:11 -0700</lastBuildDate><atom:link href="https://xisle.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jul 2024 21:22:11 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>H&amp;F</title>
-      <link>https://xisle.net/tags/hf/</link>
+      <link>http://localhost:1313/tags/hf/</link>
       <pubDate>Thu, 04 Jul 2024 21:22:11 -0700</pubDate>
       
-      <guid>https://xisle.net/tags/hf/</guid>
+      <guid>http://localhost:1313/tags/hf/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Launch</title>
-      <link>https://xisle.net/tags/launch/</link>
+      <link>http://localhost:1313/tags/launch/</link>
       <pubDate>Thu, 04 Jul 2024 21:22:11 -0700</pubDate>
       
-      <guid>https://xisle.net/tags/launch/</guid>
+      <guid>http://localhost:1313/tags/launch/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Alberni</title>
-      <link>https://xisle.net/tags/alberni/</link>
+      <link>http://localhost:1313/tags/alberni/</link>
       <pubDate>Mon, 01 Jul 2024 12:01:02 -0700</pubDate>
       
-      <guid>https://xisle.net/tags/alberni/</guid>
+      <guid>http://localhost:1313/tags/alberni/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LZ</title>
-      <link>https://xisle.net/tags/lz/</link>
+      <link>http://localhost:1313/tags/lz/</link>
       <pubDate>Thu, 27 Jun 2024 11:23:13 -0700</pubDate>
       
-      <guid>https://xisle.net/tags/lz/</guid>
+      <guid>http://localhost:1313/tags/lz/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Youbou</title>
-      <link>https://xisle.net/tags/youbou/</link>
+      <link>http://localhost:1313/tags/youbou/</link>
       <pubDate>Thu, 27 Jun 2024 11:23:13 -0700</pubDate>
       
-      <guid>https://xisle.net/tags/youbou/</guid>
+      <guid>http://localhost:1313/tags/youbou/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Ridge</title>
-      <link>https://xisle.net/tags/ridge/</link>
+      <link>http://localhost:1313/tags/ridge/</link>
       <pubDate>Wed, 26 Jun 2024 12:03:18 -0700</pubDate>
       
-      <guid>https://xisle.net/tags/ridge/</guid>
+      <guid>http://localhost:1313/tags/ridge/</guid>
       <description></description>
       
     </item>
