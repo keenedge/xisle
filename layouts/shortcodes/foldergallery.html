@@ -1,0 +1,31 @@
+<style>
+    div.foldergallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    div.foldergallery a {
+        flex-grow: 1;
+        object-fit: cover;
+        margin: 2px;
+        display: flex;
+    }
+
+    div.foldergallery a img {            
+        height: 200px;
+        object-fit: cover;
+        flex-grow: 1;
+    }
+
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.0/jquery.fancybox.min.css" />
+
+<div class="foldergallery">
+    {{ $s := .Get "src" }}
+    {{ $filePath := printf "content\\%s%s" .Page.File.Dir $s }}
+    {{ $filePath }}
+    {{ $x := readDir $filePath }}
+    {{ range $x}}
+    {{ . }}
+    {{ end }}
+</div>

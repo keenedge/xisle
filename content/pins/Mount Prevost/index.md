@@ -4,7 +4,8 @@ date = 2024-06-26T11:58:52-07:00
 kmlName = "Mount Prevost - East"
 kmlFolder = "Mount Prevost"
 weight = 1
-tags= ["H&F"]
+tags = ["H&F"]
+
 heroStyle="basic"
 draft = false
 +++

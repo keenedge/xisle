@@ -80,6 +80,10 @@
 
         <div class="article-content max-w-prose mb-20">
           {{ .Content }}
+
+          {{- with .Resources.GetMatch "landings.md" -}} 
+          {{- .Content -}} 
+          {{- end -}} 
         </div>
         {{ partial "mapbox.html" . }}
         {{ if (.Params.showAuthorBottom | default ( .Site.Params.article.showAuthorBottom | default false)) }}
