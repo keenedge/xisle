@@ -16,8 +16,8 @@
   weight = 10
 
 [[main]]
-  name = "Pins"
-  pageRef = "pins"
+  name = "Sites"
+  pageRef = "sites"
   weight = 10
 
 [[main]]

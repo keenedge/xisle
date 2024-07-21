@@ -12,8 +12,12 @@ draft = false
 ## Intro
 This is the main Site for south Vancouver island.   W, S and E east facing launches and a huge hay field to land in.  Watch out for the power lines.
 
+## RASP 
+
+{{< rasp id="56">}}
 
 ## Gallery
+
 {{< gallery >}}
   <img src="featured.jpg" class="grid-w33" />
   <img src="gallery/02.jpg" class="grid-w33" />

@@ -1,0 +1,49 @@
+{{ $bbNorth := -90 }}
+{{ $bbSouth := 90 }}
+{{ $bbEast := -90 }}
+{{ $bbWest := 90 }}
+
+{{ $pins := slice}}
+{{ with .Page.Params.launches }}
+    {{ range . }}
+        {{ with site.GetPage . }}
+            {{ $pin := dict "lat" .Params.lat "lon" .Params.lon "style" "to" "label" .Params.linkTitle }}
+            {{ $pins = $pins | append $pin }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+{{ debug.Dump $pins }}
+
+<div id="map" class=""></div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZ3Rpc3Npbmd0b24iLCJhIjoiY2xmbXk5aTh3MGdoMjNvbW9ycXo0dWszaSJ9.GZly6sNORVlRNTHqRgrKFg';
+    const map = new mapboxgl.Map({
+        container: 'map',
+        zoom: 15,
+        center: [-123.7683797140478, 48.83076107381413 ],
+        style: 'mapbox://styles/mapbox/satellite-streets-v12'
+    });
+    map.addControl(new mapboxgl.FullscreenControl());
+
+
+    map.on('style.load', () => {
+        map.addSource('mapbox-dem', {
+            'type': 'raster-dem',
+            'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
+            'tileSize': 512,
+            'maxzoom': 17
+        });
+        // add the DEM source as a terrain layer with exaggerated height
+        map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
+
+        {{ range $pins }}
+            new mapboxgl.Marker()
+                .setLngLat([{{ .lon }}, {{ .lat }}])
+                .addTo(map);
+        {{ end }}
+    });
+
+    map.on('idle',function(){
+map.resize()
+})
+</script>   

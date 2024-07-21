@@ -38,7 +38,18 @@ hardWraps = true
   priority = 0.5
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON","KML"]
+
+[mediaTypes]
+  [mediaTypes.'application/kml']
+    suffixes = ['kml']
+
+[outputFormats]
+  [outputFormats.kml]
+    baseName = 'pins'
+    isPlainText = false
+    mediaType = 'application/xml'
+    protocol = 'kml://'
 
 [related]
   threshold = 0

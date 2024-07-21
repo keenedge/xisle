@@ -1,0 +1,12 @@
+{{ $bundleId := .Get 0}}
+{{ with .Site.GetPage $bundleId }}
+    
+{{/* range .Resources }}
+        ->{{  . }}
+    {{ end */}}
+
+    location: {{ .Params.lat }},{{ .Params.lon }} [{{ .Params.elevation }}] 
+    {{ .RawContent }}
+{{ else }}
+    {{ printf "Cannot GetPage for %s" $bundleId }} 
+{{ end }}

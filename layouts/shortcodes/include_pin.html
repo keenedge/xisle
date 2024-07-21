@@ -1,0 +1,5 @@
+{{ $file := .Get 0 }}
+{{ $headless_bundle := .Site.GetPage "pins" }}
+{{ with $headless_bundle.Resources.GetMatch $file }}
+{{ .RawContent }}
+{{ end }}

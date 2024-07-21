@@ -1,6 +1,6 @@
-{{ $kmlFolder := .Params.kmlFolder }}
+{{ $kmlFolder := .Page.Params.kmlFolder }}
 {{ $errorMessage := ""}}
-{{ $kmlName:= .Params.kmlName}}
+{{ $kmlName:= .Page.Params.kmlName}}
 {{ $coordsString := "0,0,0" }}
 {{ $lat := -1 }}
 {{ $lon := -1 }}

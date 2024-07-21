@@ -1,0 +1,16 @@
+{{ $node1 := dict "a" 1 "b" "bar" }}
+{{ $node2 := dict "c" 2 "d" "bas" }}
+{{ $x := slice $node1 $node2 }}
+{{ with .Site.Data.X_Isle.Document }}
+<document>
+    {{ range .Folder }}
+        <folder id="{{ .name }}">
+            <name>{{ .name }}</name>
+            {{ range .Placemark }}
+            {{ debug.Dump . }}
+
+            {{ end }}
+        </folder >
+    {{ end }}
+</document>
+{{ end }}
