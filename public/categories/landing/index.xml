@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Landing on X/Isle</title>
-    <link>http://localhost:1313/categories/landing/</link>
+    <link>http://localhost:59893/categories/landing/</link>
     <description>Recent content in Landing on X/Isle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
-    <lastBuildDate>Thu, 27 Jun 2024 11:23:13 -0700</lastBuildDate><atom:link href="http://localhost:1313/categories/landing/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Thu, 27 Jun 2024 11:23:13 -0700</lastBuildDate><atom:link href="http://localhost:59893/categories/landing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Youbou Mill Site</title>
-      <link>http://localhost:1313/pins/youbou-mill-site/</link>
+      <link>http://localhost:59893/pins/youbou-mill-site/</link>
       <pubDate>Thu, 27 Jun 2024 11:23:13 -0700</pubDate>
       
-      <guid>http://localhost:1313/pins/youbou-mill-site/</guid>
-      <description>A massive concrete mill site largly overgrown with blackberrys and shrubs.</description>
+      <guid>http://localhost:59893/pins/youbou-mill-site/</guid>
+      <description></description>
       
     </item>
     

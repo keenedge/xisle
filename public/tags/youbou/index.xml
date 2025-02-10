@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Youbou on X/Isle</title>
-    <link>http://localhost:1313/tags/youbou/</link>
+    <link>http://localhost:59893/tags/youbou/</link>
     <description>Recent content in Youbou on X/Isle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
-    <lastBuildDate>Thu, 27 Jun 2024 11:23:13 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/youbou/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Thu, 27 Jun 2024 11:23:13 -0700</lastBuildDate><atom:link href="http://localhost:59893/tags/youbou/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Youbou Mill Site</title>
-      <link>http://localhost:1313/pins/youbou-mill-site/</link>
+      <link>http://localhost:59893/pins/youbou-mill-site/</link>
       <pubDate>Thu, 27 Jun 2024 11:23:13 -0700</pubDate>
       
-      <guid>http://localhost:1313/pins/youbou-mill-site/</guid>
-      <description>A massive concrete mill site largly overgrown with blackberrys and shrubs.</description>
+      <guid>http://localhost:59893/pins/youbou-mill-site/</guid>
+      <description></description>
       
     </item>
     
     <item>
       <title>Christopher Rock</title>
-      <link>http://localhost:1313/pins/christopher-rock/</link>
+      <link>http://localhost:59893/pins/christopher-rock/</link>
       <pubDate>Wed, 26 Jun 2024 12:01:02 -0700</pubDate>
       
-      <guid>http://localhost:1313/pins/christopher-rock/</guid>
-      <description>A 45 minute hike &amp;amp; Fly site facing south east.</description>
+      <guid>http://localhost:59893/pins/christopher-rock/</guid>
+      <description></description>
       
     </item>
     
     <item>
       <title>Eric&#39;s Bluff</title>
-      <link>http://localhost:1313/pins/erics-bluff/</link>
+      <link>http://localhost:59893/pins/erics-bluff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pins/erics-bluff/</guid>
-      <description>Hike to Chistopher Rock and then keep heading higher for another 10 minutes.</description>
+      <guid>http://localhost:59893/pins/erics-bluff/</guid>
+      <description></description>
       
     </item>
     

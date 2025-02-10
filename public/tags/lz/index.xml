@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LZ on X/Isle</title>
-    <link>http://localhost:1313/tags/lz/</link>
+    <link>http://localhost:59893/tags/lz/</link>
     <description>Recent content in LZ on X/Isle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 </copyright>
-    <lastBuildDate>Thu, 04 Jul 2024 21:22:11 -0700</lastBuildDate><atom:link href="http://localhost:1313/tags/lz/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Thu, 04 Jul 2024 21:22:11 -0700</lastBuildDate><atom:link href="http://localhost:59893/tags/lz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bluff Mountain Landing</title>
-      <link>http://localhost:1313/pins/bluff-mountain-landing/</link>
+      <link>http://localhost:59893/pins/bluff-mountain-landing/</link>
       <pubDate>Thu, 04 Jul 2024 21:22:11 -0700</pubDate>
       
-      <guid>http://localhost:1313/pins/bluff-mountain-landing/</guid>
-      <description>Intro ** Note: There is a closer bailout on the loggin road SW of the takeoff ridge.</description>
+      <guid>http://localhost:59893/pins/bluff-mountain-landing/</guid>
+      <description></description>
       
     </item>
     
     <item>
       <title>Comox Lake Landing</title>
-      <link>http://localhost:1313/pins/comox-lake-landing/</link>
+      <link>http://localhost:59893/pins/comox-lake-landing/</link>
       <pubDate>Thu, 04 Jul 2024 21:22:11 -0700</pubDate>
       
-      <guid>http://localhost:1313/pins/comox-lake-landing/</guid>
-      <description>Intro Small area when the lake level is high.</description>
+      <guid>http://localhost:59893/pins/comox-lake-landing/</guid>
+      <description></description>
       
     </item>
     
     <item>
       <title>Youbou Mill Site</title>
-      <link>http://localhost:1313/pins/youbou-mill-site/</link>
+      <link>http://localhost:59893/pins/youbou-mill-site/</link>
       <pubDate>Thu, 27 Jun 2024 11:23:13 -0700</pubDate>
       
-      <guid>http://localhost:1313/pins/youbou-mill-site/</guid>
-      <description>A massive concrete mill site largly overgrown with blackberrys and shrubs.</description>
+      <guid>http://localhost:59893/pins/youbou-mill-site/</guid>
+      <description></description>
       
     </item>
     
