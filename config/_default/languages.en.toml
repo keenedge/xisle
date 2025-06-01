@@ -13,7 +13,7 @@ title = "X/Isle"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-[author]
+[parms.author]
 #  name = "Golf Sierra Tango"
 #   image = "img/xisle.jpg"
   headline = "Resources for Vancouver Island Pilots"
