@@ -38,6 +38,14 @@ content:
       - name: description
         label: Description
         type: rich-text
+      - name: areas
+        label: Areas
+        type: reference
+        options:
+          collection: areas
+          multiple: true
+          search: "title"
+          value: {name}          
   - name: areas
     label: Areas
     type: collection
