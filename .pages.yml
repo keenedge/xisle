@@ -45,7 +45,7 @@ content:
           collection: areas
           multiple: true
           search: "title"
-          value: {name}          
+          value: {title}          
   - name: areas
     label: Areas
     type: collection
