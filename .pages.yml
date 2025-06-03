@@ -4,6 +4,7 @@ content:
     label: Pins
     type: collection
     path: 'content\pins'
+    filename: "{primary}"
     view:
       fields: [ title, published, date ]
     fields:
@@ -49,6 +50,7 @@ content:
   - name: areas
     label: Areas
     type: collection
+    filename: "{primary}"   
     path: 'content\areas'
     view:
       fields: [ title, published, date ]
