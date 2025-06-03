@@ -17,21 +17,24 @@ content:
       - name: title
         label: Title
         type: string
-      - name: latitude
-        label: Latitude
-        type: number
-        default: 0
-        required: true
-      - name: longitude
-        label: Longitude
-        type: number
-        default: 0
-        required: true
-      - name: elevation
-        label: Elevation
-        type: number
-        default: 0
-        required: true
+      - name: location
+        type: object
+        fields:
+        - name: latitude
+          label: Latitude
+          type: number
+          default: 0
+          required: true
+        - name: longitude
+          label: Longitude
+          type: number
+          default: 0
+          required: true
+        - name: elevation
+          label: Elevation
+          type: number
+          default: 0
+          required: true
       - name: body
         label: Body
         type: rich-text
