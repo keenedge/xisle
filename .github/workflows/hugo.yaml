@@ -1,5 +1,5 @@
 # This GitHub Action workflow automates the process of building a Hugo site
-# and deploying it to Cloudflare Workers.
+# and deploying it to Cloudflare Workers. Test
 
 name: Deploy Hugo to Cloudflare Workers
 
