@@ -28,7 +28,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.87.0' # Or a specific version like '0.127.0'
+          hugo-version: 'v0.143.1-0270364a347b2ece97e0321782b21904db515ecc+extended' # Or a specific version like '0.127.0'
           # extended: true # Uncomment if you are using Hugo extended for Sass/SCSS
 
       # Step 3: Build Hugo site
