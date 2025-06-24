@@ -1,0 +1,7 @@
+# wrangler.toml
+name = "xisle"
+main = "src/index.ts" # Your Hono Worker entry point
+compatibility_date = "2024-09-25"
+
+[assets]
+directory = "./public" # Hugo's output directory
